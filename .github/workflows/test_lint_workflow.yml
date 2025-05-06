@@ -1,0 +1,28 @@
+# This workflow install and runs pytest /flake8 to run tests on code and lint it
+
+name: pytest and flake8
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Install pytest and flake8
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest flake8
+      - name: Run tests
+        run: |
+          pytest
+      - name: Lint with flake8
+        run: |
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+      
