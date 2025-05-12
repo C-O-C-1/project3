@@ -1,0 +1,731 @@
+-----
+CATEGORY workclass
+-----
+-----
+VALUE  Local-gov
+-----
+-----Performance------
+F-BETA-SCORE 0.7235772357723578
+Precision 0.8165137614678899
+Recall 0.6496350364963503
+-----
+VALUE  ?
+-----
+-----Performance------
+F-BETA-SCORE 0.4406779661016949
+Precision 0.5
+Recall 0.3939393939393939
+-----
+VALUE  Private
+-----
+-----Performance------
+F-BETA-SCORE 0.6655290102389079
+Precision 0.6997607655502392
+Recall 0.6344902386117137
+-----
+VALUE  Self-emp-not-inc
+-----
+-----Performance------
+F-BETA-SCORE 0.6791044776119403
+Precision 0.7913043478260869
+Recall 0.5947712418300654
+-----
+VALUE  Federal-gov
+-----
+-----Performance------
+F-BETA-SCORE 0.8299319727891157
+Precision 0.8840579710144928
+Recall 0.782051282051282
+-----
+VALUE  State-gov
+-----
+-----Performance------
+F-BETA-SCORE 0.6950354609929078
+Precision 0.8032786885245902
+Recall 0.6125
+-----
+VALUE  Self-emp-inc
+-----
+-----Performance------
+F-BETA-SCORE 0.7789473684210526
+Precision 0.7928571428571428
+Recall 0.7655172413793103
+-----
+VALUE  Without-pay
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  Never-worked
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+CATEGORY education
+-----
+-----
+VALUE  Bachelors
+-----
+-----Performance------
+F-BETA-SCORE 0.7372013651877133
+Precision 0.7058823529411765
+Recall 0.7714285714285715
+-----
+VALUE  Some-college
+-----
+-----Performance------
+F-BETA-SCORE 0.6069246435845214
+Precision 0.6962616822429907
+Recall 0.5379061371841155
+-----
+VALUE  HS-grad
+-----
+-----Performance------
+F-BETA-SCORE 0.517304189435337
+Precision 0.6396396396396397
+Recall 0.43425076452599387
+-----
+VALUE  11th
+-----
+-----Performance------
+F-BETA-SCORE 0.5
+Precision 1.0
+Recall 0.3333333333333333
+-----
+VALUE  Prof-school
+-----
+-----Performance------
+F-BETA-SCORE 0.9263157894736842
+Precision 0.8979591836734694
+Recall 0.9565217391304348
+-----
+VALUE  10th
+-----
+-----Performance------
+F-BETA-SCORE 0.4
+Precision 0.75
+Recall 0.2727272727272727
+-----
+VALUE  Assoc-voc
+-----
+-----Performance------
+F-BETA-SCORE 0.5909090909090909
+Precision 0.75
+Recall 0.4875
+-----
+VALUE  Masters
+-----
+-----Performance------
+F-BETA-SCORE 0.8418230563002681
+Precision 0.8263157894736842
+Recall 0.8579234972677595
+-----
+VALUE  5th-6th
+-----
+-----Performance------
+F-BETA-SCORE 0.5714285714285714
+Precision 1.0
+Recall 0.4
+-----
+VALUE  Doctorate
+-----
+-----Performance------
+F-BETA-SCORE 0.8943089430894309
+Precision 0.8870967741935484
+Recall 0.9016393442622951
+-----
+VALUE  9th
+-----
+-----Performance------
+F-BETA-SCORE 0.2857142857142857
+Precision 1.0
+Recall 0.16666666666666666
+-----
+VALUE  1st-4th
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  Assoc-acdm
+-----
+-----Performance------
+F-BETA-SCORE 0.6593406593406593
+Precision 0.7142857142857143
+Recall 0.6122448979591837
+-----
+VALUE  12th
+-----
+-----Performance------
+F-BETA-SCORE 0.2857142857142857
+Precision 1.0
+Recall 0.16666666666666666
+-----
+VALUE  Preschool
+-----
+-----Performance------
+F-BETA-SCORE 0.0
+Precision 0.0
+Recall 1.0
+-----
+VALUE  7th-8th
+-----
+-----Performance------
+F-BETA-SCORE 0.18181818181818182
+Precision 1.0
+Recall 0.1
+-----
+CATEGORY marital-status
+-----
+-----
+VALUE  Married-civ-spouse
+-----
+-----Performance------
+F-BETA-SCORE 0.7124031007751938
+Precision 0.7375601926163724
+Recall 0.6889055472263869
+-----
+VALUE  Never-married
+-----
+-----Performance------
+F-BETA-SCORE 0.5190839694656488
+Precision 0.7391304347826086
+Recall 0.4
+-----
+VALUE  Divorced
+-----
+-----Performance------
+F-BETA-SCORE 0.49645390070921985
+Precision 0.6730769230769231
+Recall 0.39325842696629215
+-----
+VALUE  Married-spouse-absent
+-----
+-----Performance------
+F-BETA-SCORE 0.6
+Precision 1.0
+Recall 0.42857142857142855
+-----
+VALUE  Separated
+-----
+-----Performance------
+F-BETA-SCORE 0.3076923076923077
+Precision 1.0
+Recall 0.18181818181818182
+-----
+VALUE  Widowed
+-----
+-----Performance------
+F-BETA-SCORE 0.4444444444444444
+Precision 0.8571428571428571
+Recall 0.3
+-----
+VALUE  Married-AF-spouse
+-----
+-----Performance------
+F-BETA-SCORE 0.0
+Precision 1.0
+Recall 0.0
+-----
+CATEGORY occupation
+-----
+-----
+VALUE  Prof-specialty
+-----
+-----Performance------
+F-BETA-SCORE 0.7989276139410187
+Precision 0.7967914438502673
+Recall 0.8010752688172043
+-----
+VALUE  ?
+-----
+-----Performance------
+F-BETA-SCORE 0.4406779661016949
+Precision 0.5
+Recall 0.3939393939393939
+-----
+VALUE  Other-service
+-----
+-----Performance------
+F-BETA-SCORE 0.25
+Precision 0.5
+Recall 0.16666666666666666
+-----
+VALUE  Craft-repair
+-----
+-----Performance------
+F-BETA-SCORE 0.5259938837920489
+Precision 0.6515151515151515
+Recall 0.441025641025641
+-----
+VALUE  Sales
+-----
+-----Performance------
+F-BETA-SCORE 0.6296296296296297
+Precision 0.6432432432432432
+Recall 0.616580310880829
+-----
+VALUE  Handlers-cleaners
+-----
+-----Performance------
+F-BETA-SCORE 0.3333333333333333
+Precision 0.5
+Recall 0.25
+-----
+VALUE  Exec-managerial
+-----
+-----Performance------
+F-BETA-SCORE 0.8050955414012739
+Precision 0.8102564102564103
+Recall 0.8
+-----
+VALUE  Farming-fishing
+-----
+-----Performance------
+F-BETA-SCORE 0.35714285714285715
+Precision 0.625
+Recall 0.25
+-----
+VALUE  Tech-support
+-----
+-----Performance------
+F-BETA-SCORE 0.6122448979591837
+Precision 0.5454545454545454
+Recall 0.6976744186046512
+-----
+VALUE  Transport-moving
+-----
+-----Performance------
+F-BETA-SCORE 0.5128205128205128
+Precision 0.7692307692307693
+Recall 0.38461538461538464
+-----
+VALUE  Adm-clerical
+-----
+-----Performance------
+F-BETA-SCORE 0.576271186440678
+Precision 0.68
+Recall 0.5
+-----
+VALUE  Machine-op-inspct
+-----
+-----Performance------
+F-BETA-SCORE 0.46875
+Precision 0.6521739130434783
+Recall 0.36585365853658536
+-----
+VALUE  Protective-serv
+-----
+-----Performance------
+F-BETA-SCORE 0.7407407407407407
+Precision 0.8108108108108109
+Recall 0.6818181818181818
+-----
+VALUE  Priv-house-serv
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  Armed-Forces
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+CATEGORY relationship
+-----
+-----
+VALUE  Wife
+-----
+-----Performance------
+F-BETA-SCORE 0.7254237288135593
+Precision 0.6993464052287581
+Recall 0.7535211267605634
+-----
+VALUE  Other-relative
+-----
+-----Performance------
+F-BETA-SCORE 0.3333333333333333
+Precision 0.5
+Recall 0.25
+-----
+VALUE  Husband
+-----
+-----Performance------
+F-BETA-SCORE 0.7114035087719298
+Precision 0.7433547204399633
+Recall 0.6820857863751051
+-----
+VALUE  Own-child
+-----
+-----Performance------
+F-BETA-SCORE 0.3076923076923077
+Precision 0.6666666666666666
+Recall 0.2
+-----
+VALUE  Unmarried
+-----
+-----Performance------
+F-BETA-SCORE 0.4838709677419355
+Precision 1.0
+Recall 0.3191489361702128
+-----
+VALUE  Not-in-family
+-----
+-----Performance------
+F-BETA-SCORE 0.512396694214876
+Precision 0.6888888888888889
+Recall 0.40789473684210525
+-----
+CATEGORY race
+-----
+-----
+VALUE  White
+-----
+-----Performance------
+F-BETA-SCORE 0.6911819887429643
+Precision 0.7368
+Recall 0.6508833922261484
+-----
+VALUE  Asian-Pac-Islander
+-----
+-----Performance------
+F-BETA-SCORE 0.6862745098039216
+Precision 0.7291666666666666
+Recall 0.6481481481481481
+-----
+VALUE  Black
+-----
+-----Performance------
+F-BETA-SCORE 0.628099173553719
+Precision 0.7307692307692307
+Recall 0.5507246376811594
+-----
+VALUE  Amer-Indian-Eskimo
+-----
+-----Performance------
+F-BETA-SCORE 0.5
+Precision 0.6666666666666666
+Recall 0.4
+-----
+VALUE  Other
+-----
+-----Performance------
+F-BETA-SCORE 0.75
+Precision 1.0
+Recall 0.6
+-----
+CATEGORY sex
+-----
+-----
+VALUE  Female
+-----
+-----Performance------
+F-BETA-SCORE 0.6798029556650246
+Precision 0.7340425531914894
+Recall 0.6330275229357798
+-----
+VALUE  Male
+-----
+-----Performance------
+F-BETA-SCORE 0.6893514811849479
+Precision 0.7371575342465754
+Recall 0.6473684210526316
+-----
+CATEGORY native-country
+-----
+-----
+VALUE  United-States
+-----
+-----Performance------
+F-BETA-SCORE 0.6883895131086142
+Precision 0.7340255591054313
+Recall 0.6480959097320169
+-----
+VALUE  Vietnam
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  ?
+-----
+-----Performance------
+F-BETA-SCORE 0.7
+Precision 0.75
+Recall 0.65625
+-----
+VALUE  Mexico
+-----
+-----Performance------
+F-BETA-SCORE 0.2857142857142857
+Precision 0.5
+Recall 0.2
+-----
+VALUE  Trinadad&Tobago
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  England
+-----
+-----Performance------
+F-BETA-SCORE 0.3333333333333333
+Precision 0.5
+Recall 0.25
+-----
+VALUE  Jamaica
+-----
+-----Performance------
+F-BETA-SCORE 0.0
+Precision 0.0
+Recall 0.0
+-----
+VALUE  Guatemala
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  Dominican-Republic
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  Philippines
+-----
+-----Performance------
+F-BETA-SCORE 0.7
+Precision 0.7
+Recall 0.7
+-----
+VALUE  Laos
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  Puerto-Rico
+-----
+-----Performance------
+F-BETA-SCORE 0.6666666666666666
+Precision 0.6666666666666666
+Recall 0.6666666666666666
+-----
+VALUE  Japan
+-----
+-----Performance------
+F-BETA-SCORE 0.8
+Precision 1.0
+Recall 0.6666666666666666
+-----
+VALUE  South
+-----
+-----Performance------
+F-BETA-SCORE 0.5714285714285714
+Precision 0.5
+Recall 0.6666666666666666
+-----
+VALUE  Cuba
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  Canada
+-----
+-----Performance------
+F-BETA-SCORE 0.9333333333333333
+Precision 1.0
+Recall 0.875
+-----
+VALUE  Cambodia
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  Portugal
+-----
+-----Performance------
+F-BETA-SCORE 0.0
+Precision 1.0
+Recall 0.0
+-----
+VALUE  China
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  Iran
+-----
+-----Performance------
+F-BETA-SCORE 0.5
+Precision 1.0
+Recall 0.3333333333333333
+-----
+VALUE  Italy
+-----
+-----Performance------
+F-BETA-SCORE 0.6666666666666666
+Precision 1.0
+Recall 0.5
+-----
+VALUE  Greece
+-----
+-----Performance------
+F-BETA-SCORE 0.6666666666666666
+Precision 0.5
+Recall 1.0
+-----
+VALUE  Columbia
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  India
+-----
+-----Performance------
+F-BETA-SCORE 0.75
+Precision 0.6666666666666666
+Recall 0.8571428571428571
+-----
+VALUE  Haiti
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  Yugoslavia
+-----
+-----Performance------
+F-BETA-SCORE 0.0
+Precision 0.0
+Recall 0.0
+-----
+VALUE  Nicaragua
+-----
+-----Performance------
+F-BETA-SCORE 0.0
+Precision 1.0
+Recall 0.0
+-----
+VALUE  Germany
+-----
+-----Performance------
+F-BETA-SCORE 0.5454545454545454
+Precision 0.6
+Recall 0.5
+-----
+VALUE  El-Salvador
+-----
+-----Performance------
+F-BETA-SCORE 0.0
+Precision 1.0
+Recall 0.0
+-----
+VALUE  Ireland
+-----
+-----Performance------
+F-BETA-SCORE 0.6666666666666666
+Precision 1.0
+Recall 0.5
+-----
+VALUE  Poland
+-----
+-----Performance------
+F-BETA-SCORE 0.5
+Precision 1.0
+Recall 0.3333333333333333
+-----
+VALUE  Hong
+-----
+-----Performance------
+F-BETA-SCORE 0.0
+Precision 1.0
+Recall 0.0
+-----
+VALUE  France
+-----
+-----Performance------
+F-BETA-SCORE 0.6666666666666666
+Precision 0.6666666666666666
+Recall 0.6666666666666666
+-----
+VALUE  Ecuador
+-----
+-----Performance------
+F-BETA-SCORE 0.0
+Precision 1.0
+Recall 0.0
+-----
+VALUE  Scotland
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  Taiwan
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  Peru
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  Outlying-US(Guam-USVI-etc)
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0
+-----
+VALUE  Hungary
+-----
+-----Performance------
+F-BETA-SCORE 0.0
+Precision 1.0
+Recall 0.0
+-----
+VALUE  Thailand
+-----
+-----Performance------
+F-BETA-SCORE 0.0
+Precision 1.0
+Recall 0.0
+-----
+VALUE  Honduras
+-----
+-----Performance------
+F-BETA-SCORE 1.0
+Precision 1.0
+Recall 1.0

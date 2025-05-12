@@ -62,8 +62,15 @@ def compute_model_metrics(y, preds):
     fbeta : float
     """
     fbeta = fbeta_score(y, preds, beta=1, zero_division=1)
+    print("fbeta")
+    print(fbeta)
     precision = precision_score(y, preds, zero_division=1)
+    print("precision")
+    print(precision)
     recall = recall_score(y, preds, zero_division=1)
+    print("recall")
+    print(recall)
+
     return precision, recall, fbeta
 
 

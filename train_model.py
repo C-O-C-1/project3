@@ -92,5 +92,6 @@ if __name__ == "__main__":
     loaded_model = model.load_model(filename)
     loaded_enc, loaded_lb = data.load_encoder_lb(filename_enc, filename_lb)
     preds = model.inference(loaded_model, X_test)
+    performances = model.compute_model_metrics(y_test, preds)
     preds_sliced = model.inference_categorical(test, loaded_enc,
                                                loaded_lb, loaded_model)
