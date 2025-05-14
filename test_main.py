@@ -48,6 +48,6 @@ def test_make_prediction_class_1():
     data_df = request.load_data(data_path)
     test_data = request.split_data(data_df)
     prep_test_data = request.prepare_data(test_data)
-    response = client.post("/inference", json=prep_test_data)
+    response = client.post("http://127.0.0.1:8000/inference", json=prep_test_data)
     assert response.status_code == 200
     assert any(pred in [1.0] for pred in response.json())
