@@ -65,7 +65,7 @@ class TotalInferenceData(BaseModel):
     data: list[InferenceData]
 
 
-@app.post("/inference/", response_model=List[float])
+@app.post("/inference", response_model=List[float])
 async def make_prediction(datapoints: TotalInferenceData) -> List[float]:
     """
     Manages model prediction
