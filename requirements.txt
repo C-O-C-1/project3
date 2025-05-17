@@ -9,3 +9,4 @@ gunicorn
 scipy
 joblib
 flake8
+pydantic
