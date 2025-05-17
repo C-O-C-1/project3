@@ -15,7 +15,7 @@ def load_data(pth: str) -> pd.DataFrame:
 
     Returns
     -------
-    data_df: Pandas dataframe with data
+    data_df: Pandas Dataframe with data
     """
     data_df: pd.DataFrame = train_model.load_data(pth)
     return data_df
